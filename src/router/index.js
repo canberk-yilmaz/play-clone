@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Home from "@/Views/Home.vue";
+import Home from "@/components/Home.vue";
 
 const routes = [
   { path: "/", name: "Home", component: Home, alias: "/home" },
@@ -10,7 +10,7 @@ const routes = [
   // {
   //   path: "/:pathMatch(.*)*",
   //   name: "NotFound",
-  //   component: () => import("@/Views/NotFound.vue"),
+  //   component: () => import("@/components/NotFound.vue"),
   // },
 ];
 
