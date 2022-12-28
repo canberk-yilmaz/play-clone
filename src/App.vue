@@ -1,10 +1,15 @@
-<script setup></script>
+<script setup>
+import Navbar from "@/components/Navbar.vue";
+</script>
 
 <template>
-  <div>Navbar</div>
+  <Navbar />
+  <div class="h-[60px]"></div>
   <router-view></router-view>
-  <div>Download Play from the App Store</div>
-  <div>Footer</div>
+  <div class="text-white h-screen">Download Play from the App Store</div>
+  <div class="text-white h-screen">Footer</div>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>
