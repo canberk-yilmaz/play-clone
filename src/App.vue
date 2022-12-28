@@ -1,9 +1,10 @@
-<script setup>
-import Home from "./components/Home.vue";
-</script>
+<script setup></script>
 
 <template>
-  <Home />
+  <div>Navbar</div>
+  <router-view></router-view>
+  <div>Download Play from the App Store</div>
+  <div>Footer</div>
 </template>
 
 <style scoped></style>
