@@ -3,9 +3,11 @@ import Home from "@/components/Home.vue";
 
 const routes = [
   { path: "/", name: "Home", component: Home, alias: "/home" },
-  // { path: "/", name: "Home", component: Home, alias: "/home" },
-  // { path: "/", name: "Home", component: Home, alias: "/home" },
-  // { path: "/", name: "Home", component: Home, alias: "/home" },
+  { path: "/why-play", name: "Home1", component: Home, alias: "/home" },
+  { path: "/get-started", name: "Home2", component: Home, alias: "/home" },
+  { path: "/features", name: "Home3", component: Home, alias: "/home" },
+  { path: "/news", name: "Home4", component: Home, alias: "/home" },
+  { path: "/careers", name: "Home5", component: Home, alias: "/home" },
 
   // {
   //   path: "/:pathMatch(.*)*",
@@ -17,6 +19,7 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  linkActiveClass: "active",
   //   scrollBehavior(to, from, savedPosition) {
   //     return (
   //       savedPosition ||
